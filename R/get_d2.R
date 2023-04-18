@@ -15,6 +15,7 @@
 #' @param uin item UIN.
 #' @param get_plot T or F.
 #' @return d2, wrmsd, and drift_plot.
+#'
 
 
 get_d2 <- function(model, theta.vec,
