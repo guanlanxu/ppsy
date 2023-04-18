@@ -12,7 +12,7 @@ devtools::install_github("guanlanxu/ppsy")
 
 ## Usage
 
-ppsy provides tools for operational psychometric workflow. Below are some highlighted features:
+`ppsy` provides tools for operational psychometric workflow. Below are some highlighted features:
 
 * `newadmin_setup` function creates directories for specified administration. This function takes care of both operational and field-testing scenarios.  
 
