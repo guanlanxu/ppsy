@@ -19,7 +19,7 @@ devtools::install_github("guanlanxu/ppsy")
 * `get_path` function generates all paths that would be needed in future work, including path to calibration data, to test map, to bank files, to input and output files, etc.
 
 
-* IRT calibration function `cal_fun` calls IRTPRO or WINSTEPS. This function does require IRTPRO and/or WINSTEPS to be installed on local machine in advance. Currently, this package only support `Rasch`, `2PL`, `3PL`, and `GPC` models. Model fit statistics can be computed using `modfit_fun` function. 
+* IRT calibration function `cal_fun` calls IRTPRO or WINSTEPS. This function does require IRTPRO and/or WINSTEPS to be installed on local machine in advance. Currently, this package only supports `Rasch`, `2PL`, `3PL`, and `GPC` models. Model fit statistics can be computed using `modfit_fun` function. 
 
 * Equating, drift analysis, and fit plots. (see `STURIT_4drift()`,`get_d2()`,`anchor_d2check()`). 
 
