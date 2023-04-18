@@ -33,5 +33,5 @@ We recommend to run `newadmin_setup` and `get_path` before any calibration and/o
 If you would like to contribute, please contact the author of this package.
 
 ## License
-MIT
+GPL v3.0
 
