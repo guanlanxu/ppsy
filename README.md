@@ -10,6 +10,8 @@ You can install `ppsy` from GitHub.
 
 devtools::install_github("guanlanxu/ppsy")
 
+(Please note: installation has not been tested. If you encounter issues, please contact the author.)
+
 ## Usage
 
 `ppsy` provides tools for operational psychometric workflow. Below are some highlighted features:
