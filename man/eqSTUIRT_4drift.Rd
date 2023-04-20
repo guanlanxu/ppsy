@@ -18,6 +18,10 @@ eqSTUIRT_4drift(
   dropseq = "",
   dnu = "",
   dropuin_anchor = "",
+  drop_passid = "",
+  forcein_uin = "",
+  forcein_passid = "",
+  iter = "",
   get_plot = T
 )
 }
@@ -46,8 +50,6 @@ eqSTUIRT_4drift(
 
 \item{dropuin_anchor}{Item UIN that to be dropped from anchor set.}
 
-\item{get_plot}{T or F. Whether to get plot.}
-
 \item{drop_passid}{PassageID that to be dropped from anchor set.}
 
 \item{forcein_uin}{Item UIN that is forced to be in anchor set.}
@@ -55,6 +57,8 @@ eqSTUIRT_4drift(
 \item{forcein_passid}{PassageID that is forced to be in anchor set.}
 
 \item{iter}{number of iteration cycle.}
+
+\item{get_plot}{T or F. Whether to get plot.}
 }
 \value{
 anch_file: Parameter file about anchor items.

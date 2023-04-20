@@ -4,7 +4,7 @@
 #' @param idm IDM.
 
 #' @return myctt: A table of CTT statistics.
-
+#' @export
 
 get_ctt <- function(irt_par,idm){
 

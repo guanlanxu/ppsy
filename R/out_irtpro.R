@@ -4,7 +4,7 @@
 
 #' @return output: Extraction from IRTpro.
 #' @return convergence: Convergence message from IRTpro.
-
+#' @export
 
 
 out_irtpro <- function(out_file_path){

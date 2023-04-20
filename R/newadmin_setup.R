@@ -1,7 +1,7 @@
 #' Set up directories for new administration.
 #'
 #' @param admin_year administration year. E.g., "Spring19", "Fall20"
-
+#' @export
 
 newadmin_setup <- function(admin_year){
   dir.create(file.path("C:/TDOE/",admin_year),showWarnings =F)

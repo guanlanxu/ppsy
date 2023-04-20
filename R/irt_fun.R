@@ -16,6 +16,8 @@
 #' @return p: true score.
 #' @return info: information
 #' @return pi: A list of probabilities of getting ith points.
+#' @export
+
 
 p.fun <- function(theta.vec,b) {
   p = exp(theta.vec-b)/(1+exp(theta.vec-b))

@@ -5,7 +5,7 @@
 #' @param n integer. Which decimal place that want to round to.
 
 #' @return A rounded number
-
+#' @export
 round_sas <- function( x, n )
 {
   posneg <- sign( x )

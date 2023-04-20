@@ -4,7 +4,7 @@
 #' @param n integer. Which decimal place that want to round to.
 
 #' @return A rounded number
-
+#' @export
 round_up = function(x, n) {
   posneg = sign(x)
   z = abs(x)*10^n

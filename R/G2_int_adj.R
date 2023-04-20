@@ -7,7 +7,7 @@
 #' @param freeirt A table contains irt parameters.
 
 #' @return N_P_item: A list that contains counts of each points for each theta values for the specified item.
-
+#' @export
 
 
 

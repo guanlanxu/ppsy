@@ -4,7 +4,7 @@
 
 #' @return out_table Extraction from Winsteps
 #' @return convergence: Convergence message from Winsteps.
-
+#' @export
 
 
 out_winsteps <- function(out_file_path) {

@@ -3,7 +3,7 @@
 #' @param ol_par base parameters.
 #' @param ne_par unscaled free parameters.
 #' @return A and B: initial values for STURIT.
-
+#' @export
 
 
 get_ab <- function(ol_par,ne_par){

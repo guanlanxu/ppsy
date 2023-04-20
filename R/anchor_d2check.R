@@ -9,6 +9,8 @@
 #' @return m1m2: Stocking-Lord constants.
 #' @return anch_prms: anchor item parameters.
 #' @return ICC_plot: generate a pdf plot if get_plot is True.
+#' @export
+
 
 anchor_d2check <- function(ne_par,ol_par, con_path, out_path,
                         equate = T,        # if false, only get m1m2

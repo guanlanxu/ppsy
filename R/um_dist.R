@@ -6,7 +6,7 @@
 #' @param N_TOTAL Total N counts.
 
 #' @return um_dist: "U" means "U-shaped" distribution. "M" means missing score category .
-
+#' @export
 um_dist <- function(score_vec, score_cat, max_point, N_TOTAL){
 
   freq = table(score_vec)

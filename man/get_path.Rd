@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_path.R
 \name{get_path}
 \alias{get_path}
-\title{get path for files of TN projects. Use this function in conjunction of `newadmin_setup`, which will create directories for the files.}
+\title{get path for files. Use this function in conjunction of `newadmin_setup`, which will create directories for the files.}
 \usage{
 get_path(
   admin,
@@ -39,5 +39,5 @@ get_path(
 list of paths.
 }
 \description{
-get path for files of TN projects. Use this function in conjunction of `newadmin_setup`, which will create directories for the files.
+get path for files. Use this function in conjunction of `newadmin_setup`, which will create directories for the files.
 }

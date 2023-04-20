@@ -3,9 +3,7 @@
 #' @param uin_d String.Trait UIN with Ds.
 #' @param testcode String.
 #' @return uin_trait: Trait UIN with Long Strings.
-#'
-#'
-#'
+#' @export
 
 d2trait <- function(uin_d, testcode){
   uin = toupper(strsplit(uin_d,"_")[[1]][1])
