@@ -34,11 +34,11 @@ If you would like to contribute, please contact the author of this package.
 
 ## License
 GPL v3.0
-<<<<<<< HEAD
+
 =======
 
 ## Other Info
 https://guanlanxu.github.io/posts/2023/04/ppsy/
 
->>>>>>> be86bb09dbdb684ad610a76781222ea11a19216a
+
 
