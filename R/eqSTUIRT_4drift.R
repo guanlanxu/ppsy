@@ -648,56 +648,6 @@ write.foreign(d2_file,
               plot_reivew = plot_reivew))
 
 }
-#
-# # eqSTUIRT("en1","eoc",'tneocspr22', 'e',"op",c("TE01E0156","TE01M0260","TN0025452"))
-#
-# eqSTUIRT("en1","eoc",'tneocspr22', 'e',"op",c("TE01E0156","TE01M0260","TN0025452","TN0003282"))# last uin is due to wrmsd
-# eqSTUIRT("en2","eoc",'tneocspr22', 'e',"op","TE01E0356")
-# eqSTUIRT("al1","eoc",'tneocspr22', 'e',"op",c("TN176157","TN314325"))
-# eqSTUIRT("ge1","eoc",'tneocspr22', 'e',"op",c("TN0031231","TN0066551"))
-# eqSTUIRT("bi1","eoc",'tneocspr22', 'e',"op","TB03M2173")
-# eqSTUIRT("uh1","eoc",'tneocspr22', 'e',"op",c("TU01S0076","TU04M2744", "TU04S2516",  "TU04S2560","TU04S2601"))
-# eqSTUIRT("im1","eoc",'tneocspr22', 'e',"op",c("TN448198", "TN714309"))
-# eqSTUIRT("im2","eoc",'tneocspr22', 'e',"op",c("TN0031844", "TN0069573", "TN745872"))
-# eqSTUIRT("im3","eoc",'tneocspr22', 'e',"op",c("T2A03M325", "TN0065789", "TN0069451", "TN0075352"))
-# eqSTUIRT("al2","eoc",'tneocspr22', 'e',"op",c('TN0084884','TN0011191','TN0069451',"TN0032581")) # last uin is due to wrmsd
-#
-#
-#
-#
-# eqSTUIRT("el2","ach",'tnachspr22', 'p',"op",c("TN0002036", "TN0065304", "TN128194",
-#                                               "TN128830","TN0082533","TN0091993_P")) #wrmsd
-# #  "TN0091993_P"  Erin removed this item too.
-# eqSTUIRT("el3","ach",'tnachspr22', 'p',"op",c("TN0070136","TR01E0413","TR01E0416"))
-# eqSTUIRT("el4","ach",'tnachspr22', 'p',"op",c("TN0034066", "TR01C0313"
-#                                               ,
-#                                               "TN0034106","TN0034070"
-# )) #wrmsd
-# eqSTUIRT("el5","ach",'tnachspr22', 'p',"op","TN0069147")#wrmsd
-# eqSTUIRT("el6","ach",'tnachspr22', 'p',"op",c("TN0072046","TN532951", "TR01E0568","TR01E0569","TR01E0574")) #wrmsd
-# eqSTUIRT("el7","ach",'tnachspr22', 'p',"op",c("TR01F0006","TR01S0669",
-#                                               "TR01F0246","TN0069726") ) #wrmsd
-#
-# eqSTUIRT("el8","ach",'tnachspr22', 'p',"op","TN0081836")
-# eqSTUIRT("ma2","ach",'tnachspr22', 'p',"op",c("TN0001941","TN0001936"))
-# eqSTUIRT("ma3","ach",'tnachspr22', 'p',"op","")
-# eqSTUIRT("ma4","ach",'tnachspr22', 'p',"op","")
-# eqSTUIRT("ma5","ach",'tnachspr22', 'p',"op","TN214472") #wrmsd
-# eqSTUIRT("ma6","ach",'tnachspr22', 'p',"op",c("T6M03S608",
-#                                               "TN0004480","TN358534")) #wrmsd
-# eqSTUIRT("ma7","ach",'tnachspr22', 'p',"op",c("TN0024816",
-#                                               "TN045954"))
-# eqSTUIRT("ma8","ach",'tnachspr22', 'p',"op","T8M03S152")
-#
-# eqSTUIRT("sc3","ach",'tnachspr22', 'p',"op","TS03M4812")
-# eqSTUIRT("sc4","ach",'tnachspr22', 'p',"op","")
-# eqSTUIRT("sc5","ach",'tnachspr22', 'p',"op","")
-# eqSTUIRT("sc6","ach",'tnachspr22', 'p',"op","TS04S6967_255A")
-# eqSTUIRT("sc7","ach",'tnachspr22', 'p',"op","TS03M5747")
-# eqSTUIRT("sc8","ach",'tnachspr22', 'p',"op","")
-# eqSTUIRT("ss6","ach",'tnachspr22', 'p',"op","TH04S6480")
-# eqSTUIRT("ss7","ach",'tnachspr22', 'p',"op","")
-# eqSTUIRT("ss8","ach",'tnachspr22', 'p',"op","")
 
 
 

@@ -1,5 +1,5 @@
 
-#' get path for files of TN projects. Use this function in conjunction of `newadmin_setup`, which will create directories for the files.
+#' get path for files. Use this function in conjunction of `newadmin_setup`, which will create directories for the files.
 #'
 #' @param admin String.
 #' @param testcode String.
