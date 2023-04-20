@@ -13,7 +13,8 @@
 #' @return freeirt: Freely calibrated IRT parameters
 #' @return convergence: Convergence message from IRTpro.
 #' @return idm_cal: IDM that is calibrated in IRTpro.
-
+#' @import haven readr data.table reshape2 tidyverse rvest dplyr stringr xml2 foreign
+#' @export
 
 irtpro_fun <- function (admin, testcode, mode, status,RSnum,mock,
                         dnu ="",dropuin ="",dropseq ="",flagDist = "") {
@@ -30,7 +31,6 @@ irtpro_fun <- function (admin, testcode, mode, status,RSnum,mock,
   library(stringr)
   library(xml2)
   library(foreign)
-  library(ppsy)
 
   mypath = get_path(admin = admin, testcode = testcode, mode = mode, mock = mock,status = status, RSnum = RSnum)
 

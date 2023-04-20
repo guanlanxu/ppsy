@@ -26,6 +26,8 @@
 #' @return m1m2: Stocking_Lord constants from STUIRT.
 #' @return base_vs_freeirt_summary: Summary statistics about base and unscaled parameters.
 #' @return plot_reivew: plots.
+#' @import  dplyr   haven data.table foreign stringr gridExtra grid
+#' @export
 
 
 eqSTUIRT_4drift <- function(admin,testcode,  mode, status, RSnum,mock,

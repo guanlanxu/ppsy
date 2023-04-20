@@ -11,9 +11,10 @@
 #' @param purpose normal or maintain.
 #' @param iter integer, e.g., 1,2,3... iterations
 #' @return list of paths.
+#' @export
 
 
-get_path <- function(admin, testcode,mode, status = NA, mock, RSnum,pre_post = NA,purpose = NA, iter = 0) {
+get_path <- function(admin, testcode,mode, status = NA, mock, RSnum,pre_post = NA,purpose = NA, iter = "") {
 
   # if (is.na(pre_post)) {pre_post = ""}
   # if (is.na(purpose)) {pre_post = ""}
@@ -184,6 +185,12 @@ get_path <- function(admin, testcode,mode, status = NA, mock, RSnum,pre_post = N
                             toupper(admin),"_pre_",toupper(testcode),"_",toupper(mode),"_OP_GX.txt")
     rsss_rc_path_txt =  paste0(rsss_path,
                                toupper(admin),"_prepl3b_",toupper(testcode),"_",toupper(mode),"_OP_GX.txt")
+
+    rsss_4TDOE_path = paste0(rsss_path,"For_TDOE/",
+                             toupper(admin),"_",toupper(pre_post),"_RSSS_",toupper(mode),"_OP_GX.csv")
+    pl3b_4TDOE_path = paste0(rsss_path,"For_TDOE/",
+                             toupper(admin),"_",toupper(pre_post),"_subscoreCuts_",toupper(mode),"_OP_GX.csv")
+
   } else  if (toupper(pre_post) == "PRE" & mock == T){
     # for mock tables
     rsss_path_csv =  paste0(rsss_path,
@@ -198,6 +205,14 @@ get_path <- function(admin, testcode,mode, status = NA, mock, RSnum,pre_post = N
                             toupper(admin),"_pre_",toupper(testcode),"_",toupper(mode),"_OP_GX_mock.txt")
     rsss_rc_path_txt =  paste0(rsss_path,
                                toupper(admin),"_prepl3b_",toupper(testcode),"_",toupper(mode),"_OP_GX_mock.txt")
+
+    rsss_4TDOE_path = paste0(rsss_path,"For_TDOE/",
+                             toupper(admin),"_",toupper(pre_post),"_RSSS_",toupper(mode),"_OP_GX_mock.csv")
+    pl3b_4TDOE_path = paste0(rsss_path,"For_TDOE/",
+                             toupper(admin),"_",toupper(pre_post),"_subscoreCuts_",toupper(mode),"_OP_GX_mock.csv")
+
+
+
   } else if (toupper(pre_post) == "POST"){
     # for post equating
     rsss_path_csv =  paste0(rsss_path,
@@ -212,7 +227,14 @@ get_path <- function(admin, testcode,mode, status = NA, mock, RSnum,pre_post = N
                             toupper(admin),"_rsss_",toupper(testcode),"_",toupper(mode),"_OP_GX.txt")
     rsss_rc_path_txt =  paste0(rsss_path,
                                toupper(admin),"_pl3b_",toupper(testcode),"_",toupper(mode),"_OP_GX.txt")
+
+    rsss_4TDOE_path = paste0(rsss_path,"For_TDOE/",
+                             toupper(admin),"_",toupper(pre_post),"_RSSS_",toupper(mode),"_OP_GX.csv")
+    pl3b_4TDOE_path = paste0(rsss_path,"For_TDOE/",
+                             toupper(admin),"_",toupper(pre_post),"_subscoreCuts_",toupper(mode),"_OP_GX.csv")
   }
+
+
 
 
   # eprs
@@ -330,6 +352,9 @@ get_path <- function(admin, testcode,mode, status = NA, mock, RSnum,pre_post = N
       rsss_rc_path_sas =  rsss_rc_path_sas,
       rsss_path_txt =  rsss_path_txt,
       rsss_rc_path_txt =  rsss_rc_path_txt,
+
+      rsss_4TDOE_path = rsss_4TDOE_path,
+      pl3b_4TDOE_path = pl3b_4TDOE_path,
 
       # eprs
       pl3b_e_battery_path = pl3b_e_battery_path,

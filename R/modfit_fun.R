@@ -8,7 +8,8 @@
 #' @param mock T or F.
 #' @return fit_tab: A table with fit statistics
 #' @return fit_plot: A list of fit plots.
-
+#' @import haven  data.table    dplyr   foreign
+#' @export
 
 
 # modfit_fun(admin, testcode, mode,status,RSnum, mock)

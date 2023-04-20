@@ -13,7 +13,8 @@
 #' @return freeirt: Freely calibrated IRT parameters
 #' @return convergence: Convergence message from Winsteps.
 #' @return to_consider: Items that consider to drop.
-
+#' @import haven readr data.table reshape2 tidyverse foreign
+#' @export
 
 
 winsteps_fun <- function(admin,testcode,mode,status,RSnum,mock,
@@ -27,7 +28,6 @@ winsteps_fun <- function(admin,testcode,mode,status,RSnum,mock,
   library(ppsy)
   library(reshape2)
   library(tidyverse)
-  library(ppsy)
   library(foreign)
 
 

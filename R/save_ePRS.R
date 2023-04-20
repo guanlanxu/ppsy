@@ -9,9 +9,12 @@
 #' @param pre_post String.pre or post.
 
 #' @return Files will be written to the local folder. No objects will be returned.
-
+#' @import openxlsx
+#' @export
 
 save_ePRS <- function(admin, mock,RSnum,testcode_list, mode_list, battery_list, pre_post){
+
+  library(openxlsx)
 
   mode_list = tolower(mode_list)
   testcode_list = tolower(testcode_list)
@@ -23,7 +26,7 @@ save_ePRS <- function(admin, mock,RSnum,testcode_list, mode_list, battery_list, 
   mypath = get_path(admin,mock=mock, RSnum = RSnum,testcode = testcode_list[[1]],mode = mode_list[[1]], pre_post = pre_post)
 
   ## EPRS tables
-  library(openxlsx)
+
 
   # create tables
   if (length(E_battery_idx) >0){

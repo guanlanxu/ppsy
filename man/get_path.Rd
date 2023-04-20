@@ -13,7 +13,7 @@ get_path(
   RSnum,
   pre_post = NA,
   purpose = NA,
-  iter = 0
+  iter = ""
 )
 }
 \arguments{

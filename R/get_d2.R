@@ -15,7 +15,8 @@
 #' @param uin item UIN.
 #' @param get_plot T or F.
 #' @return d2, wrmsd, and drift_plot.
-#'
+#' @import ggplot2 data.table
+#' @export
 
 
 get_d2 <- function(model, theta.vec,

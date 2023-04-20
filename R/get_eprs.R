@@ -12,6 +12,8 @@
 #' @param irt_add A table contains parameters to add to bank file.
 
 #' @return Score table that specified in the `what` argument.
+#' @import haven readxl writexl sas7bdat dplyr
+#' @export
 
 
 get_eprs <- function(admin, testcode, mode,status = "OP",battery, RSnum,mock,pre_post = "post",
@@ -24,7 +26,7 @@ get_eprs <- function(admin, testcode, mode,status = "OP",battery, RSnum,mock,pre
   library("writexl")
   library(sas7bdat)
   library(dplyr)
-  library(ppsy)
+ # library(ppsy)
 
 
   mypath = get_path(admin = admin, testcode = testcode, mode = mode,status = status, RSnum = RSnum, mock = mock, pre_post = "post")

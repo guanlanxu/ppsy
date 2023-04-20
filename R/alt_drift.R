@@ -19,7 +19,9 @@
 #' @return mydrift_table: A table of drift items
 #' @return drifted_items: List of drifted items
 #' @return anchor_set: A table of anchor items.
-#
+#' @import haven dplyr foreign
+#' @export
+#'
 alt_drift <- function(admin, testcode,mode, status,RSnum, mock,
                       dnu = "", flagDist= "", dropuin="", dropseq="",dropuin_anchor = "",
                       direction="normal",get_plot = T, anchor_var = "linking_status", iter = 0){

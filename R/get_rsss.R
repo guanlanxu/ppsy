@@ -11,7 +11,8 @@
 
 #' @return rsss: Raw to Scale Score file.
 #' @return pl3b: Raw to Scale Score file for reporting categories.
-
+#' @import haven readxl foreign dplyr data.table rqdatatable
+#' @export
 
 
 

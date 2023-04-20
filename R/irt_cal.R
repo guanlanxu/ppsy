@@ -12,7 +12,8 @@
 #' @param flagDist Items that have flag and to drop in Calibration
 #' @return freeirt: Freely calibrated IRT parameters
 #' @return convergence: Convergence message.
-
+#' @import haven readr data.table reshape2 tidyverse
+#' @export
 
 
 irt_cal <- function(admin,testcode,  mode, status,RSnum,mock,
@@ -24,7 +25,6 @@ irt_cal <- function(admin,testcode,  mode, status,RSnum,mock,
   library(ppsy)
   library(reshape2)
   library(tidyverse)
-  library(ppsy)
 
   test = toupper(substr(admin,3,5))
 

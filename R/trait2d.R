@@ -2,6 +2,8 @@
 #'
 #' @param trait_uin Trait UIN with Long Strings.
 #' @return uin_d: UIN with Ds.
+#' @import   data.table
+#' @export
 
 trait2d <- function(trait_uin){
   library(data.table)
